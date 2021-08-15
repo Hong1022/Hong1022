@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode url="~/pb_Homepage.aspx" title="Homepage"  description="Blood Bag Management System">
+		<siteMapNode url="~/pb_SignIn.aspx" title="Sign In"  description="Sign In">
+			<siteMapNode url="~/pb_ForgetPassword.aspx" title="Forget Password"  description="Forget Password" />
+		</siteMapNode>
+	</siteMapNode>
+</siteMap>

@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="pb_Master.master.cs" Inherits="BBM.pb_Master" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <title>Blood Bags Management System | Official Page</title>
+    <link rel="icon" type="image/ico" href="Image/Logo-2.png" />
+    <link href="Stylesheet/pb_Homepage.css" rel="stylesheet" />
+</head>
+
+<body>
+    <form id="form1" runat="server">
+        <div class="h1">
+            <asp:Button CssClass="h1-button-1" ID="btn_Homepage" Text="BBM" runat="server" />
+            <asp:Button CssClass="h1-button-2" ID="btn_hContactUs" Text="Contact Us" runat="server" />
+        </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="f1">
+            <table class="f1-table">
+                <tr>
+                    <td class="f1-col-1">
+                        <asp:Button CssClass="f1-button-1" ID="btn_fContactUs" Text="Contact Us" runat="server" />
+                    </td>
+                    <td class="f1-col-1">
+                        <asp:Button CssClass="f1-button-1" ID="btn_Terms" Text="Terms" runat="server" />
+                    </td>
+                    <td class="f1-col-1">
+                        <asp:Button CssClass="f1-button-1" ID="btn_Privacy" Text="Privacy" runat="server" />
+                    </td>
+                </tr>
+            </table>
+            <div class="f1-copyright">
+                <asp:Label runat="server">Copyright 2020 Malaysia | Blood Bags Management System</asp:Label>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

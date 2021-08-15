@@ -1,0 +1,86 @@
+﻿
+
+/*------------------------Entire page------------------------*/
+body {
+    background-color: whitesmoke;
+    background-size: 100%;
+    min-width: 1080px;
+    max-width: 100%;
+    height: auto;
+    margin: 0px;
+    font-family: Arial;
+}
+
+
+/*------------------------Header of masterpage------------------------*/
+.h1 {
+    height: 70px;
+    background-color: #e04a68;
+    position: sticky;
+    top: 0;
+}
+
+.h1-openbtn {
+    height: 60px;
+    border: none;
+    position: sticky;
+    display: inline-block;
+    color: whitesmoke;
+    background-color: #e04a68;
+    font-size: 35px;
+    cursor: pointer;
+    padding: 10px 30px 0px 30px;
+    transition: 0.5s;
+}
+
+    .h1-openbtn:last-child {
+        margin-left: 20px;
+    }
+
+    .h1-openbtn:hover {
+        background-color: #dc133d;
+    }
+
+.h1-menu-sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #dc133d;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 70px;
+}
+
+    .h1-menu-sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: whitesmoke;
+        display: block;
+        transition: 0.3s;
+    }
+
+        .h1-menu-sidenav a:hover {
+            font-weight: bold;
+        }
+
+    .h1-menu-sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+@media screen and (max-height: 450px) {
+    .h1-menu-sidenav {
+        padding-top: 15px;
+    }
+
+        .h1-menu-sidenav a {
+            font-size: 18px;
+        }
+}
