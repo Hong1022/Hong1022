@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/pb_Master.Master" AutoEventWireup="true" CodeBehind="pb_Homepage.aspx.cs" Inherits="BBM.pb_Homepage" %>
 
-<%--Public main page--%>
+<%--Public main page Test--%>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="b1">
@@ -8,3 +8,6 @@
         <br />
         <asp:Button CssClass="b1-label-2" runat="server" ID="btn_Signin" Text="Sign In" PostBackUrl="~/pb_SignIn.aspx" />
     </div>
+
+</asp:Content>
+
