@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="~/pb_Master.Master" AutoEventWireup="true" CodeBehind="pb_Homepage.aspx.cs" Inherits="BBM.pb_Homepage" %>
 
+<%--Public main page--%>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="b1">
         <asp:Label CssClass="b1-label-1" runat="server">Blood Bags Management System</asp:Label>
